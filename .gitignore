@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Django
+staticfiles/
+media/
+
+# Flutter/Dart
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.idea/
+frontend/*.iml
+frontend/**/Generated.xcconfig
+frontend/**/Flutter/ephemeral/
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Coverage
+coverage/
+
+# Local files
+db.sqlite3
